@@ -1,0 +1,19 @@
+
+<?php
+
+echo "<h2>Dashboard</h2>";
+
+
+
+echo $this->tag->form("dashboard/logout");
+echo '<div style=float:right>';
+echo $this->tag->submitButton("Logout");
+echo '</div>';
+echo '<br>';
+echo  $this->session->get('email');
+echo "<br>";
+echo  $this->session->get('password');
+echo $this->time ;
+?>
+
+<body style="background-color:Tomato;"></body>
